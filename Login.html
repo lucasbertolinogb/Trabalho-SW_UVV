@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <!--link do bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+</head>
+<body>
+ <!--botôes do menu-->
+  <header class="menu_principal">
+<!--inicio de main + header-->
+    <main>
+<!--div do header-->
+    <div class="header1">
+<!--div da logo/imagem-->
+      <div class= "logo">
+        <a href="https://aula-2605.lucasbertolino.repl.co/"> <img src="img/logo.png" title="Logo do Site"> </a>
+      </div>
+<!--div das redes sociais-->
+        <div class="redes_sociais">
+          <ul>
+            <li><a href="https://login.lucasbertolino.repl.co/"><img width="39" height="32" title="login" src="img/usuário.png" alt></a></li>
+            <li><a href="https://aula-2605.lucasbertolino.repl.co/"><img width="39" height="32" title="Home" src="img/casa.png"></a></li>
+            <li><a href=""><img width="39" height="32" title="tradução" src="img/traducao.png"></a></li>
+            <li><a href="https://faq.lucasbertolino.repl.co/"><img width="39" height="32" title="Dúvidas frequentes" src="img/faq.png"></a></li>
+          </ul>
+        </div>
+<!--término da div das redes sociais -->
+      </div>
+    </main>
+  </header>
+<!-- termino do 1º cabeçário-->
+<!--começo da 2º cabeçário-->
+ <header>
+  <header class="header2">
+    <main class="main">
+<!--começo dos botões do menu-->
+        <div class="menu">
+          <ul>
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Onde Estamos</a></li>
+            <li><a href="">Notícias</a></li>
+            <li><a href="">Trabalhe conosco</a></li>
+          </ul>
+        </div>
+<!--fim do código do menu-->
+      </main>
+  </header>
+ </header>
+
+    <div class="col-100">
+      <div class="content">
+
+        <form>
+        <h3>Coloque sua conta Aqui:</h3>
+       <input type="text" placeholder="Login" id="login"> <br>
+       <input type="password" placeholder="Senha" id="senha"> <br>
+        <input type="submit" onclick="logar(); return false">
+       
+        
+        </form>
+
+
+         
+      </div>
+    </div>
+
+
+
+
+  
+  <div class="col-h-final">
+    <h3>Agradecimento para estas pessoas e organizações por me ajudar a fazer este site</h3>
+  </div>
+  
+  <div class="col-100-bloco-logos"> 
+    <div>
+      <div class="content"> <!--class final -->
+        <div class="col-4">
+          <a href="https://getbootstrap.com/"> <img alt="bootstrap" title="logo da Bootstrap" src="logo.final/bootstrap.png" width="175" height="175" /> </a>
+            <p>o Bootstrap me ajudou com os botões do topo fixando eles ,pois , caso não tivesse elas estaria estranho (motivos:não sei) </p>
+        </div>
+        <div class="col-4">
+          <a href="https://www.youtube.com/c/EscolaFrontend"><img alt="escola font end" title="logo do canal escola front end" src="logo.final/escola-front-end.png" width="175" height="175"/></a>
+
+          
+          <p>Ajudou me a fazer quase tudo, do pó até o mundo ,ou seja, a maior parte dos códigos e implementei nos códigos</p>
+        </div>
+        <div class="col-4">
+          <a href="https://www.w3schools.com/"><img alt="w3schools" title="logo do w3schools" src="logo.final/w3schools.png" width="175" height="175"/></a>
+          <p>E por fim, a W3schools que mais me ajudou a concertas os erros do e meu site e inclusive ajudou a na questão de responsividade </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+  
+  <script src="script.js"></script>
+  <!--scrip do bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
