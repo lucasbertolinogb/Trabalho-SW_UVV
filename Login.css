@@ -1,0 +1,165 @@
+html, body {
+  width: 100%;
+  height: 10vh;
+  }
+
+/*barra de movimento (srcoll bar)*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*Término do código do scroll bar*/
+
+/*ícones da parte superior*/
+.logo{
+float: left;
+padding: 5px;
+background: #E7E6E6;
+width: 70%
+}
+
+.redes_sociais {
+width: 30%;
+float: right;
+padding: 19px;
+background: #E7E6E6 ;
+}
+
+.redes_sociais ul li{
+margin-left: 10px;
+display: inline-block;
+float: left;
+list-style: nome; 
+}
+/*término do ícones*/
+
+/*começo do menu*/
+.menu_principal{
+background: #e7e6e6;
+width:100%;
+height: 70px;
+}
+
+.menu ul li{
+display: inline-block;
+color: #150405;
+margin-left: 100px;
+}
+
+.menu ul li a {
+color: #150405;
+text-decoration: #DD1ED8;
+font-size: 15px;
+text-transform: uppercase;
+}
+      /*ação do mouse em cima do menu*/
+.menu ul li a:hover{
+  color: #00bac6;
+  border-bottom: 3px solid #00bac6;
+  background-color: #c81ec2;
+  
+}
+/*fim do menu*/
+
+/*começo da página*/
+
+/*alinhamento da página*/
+main , .content {
+margin: 0 auto;
+width: 980px;
+position: relative;  
+}
+
+.header ul{
+background-color: #DD1ED8;
+border-bottom: 3px solid #150405;
+}
+
+.header2{
+background-color: #DD1ED8;
+width: 100%;
+min-width: 980px;
+height: 30px;
+padding: 5px;
+margin: 0 auto;  
+position: relative;
+border-bottom: 3px solid #150405;
+}
+
+.content {
+  background-color: #9D82FF;
+  height: 100%; 
+}
+
+.col-100{
+  width: 100%;
+  min-width: 980px;
+  height: 300px;
+  background-color: #9D82FF;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.col-4{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  display: block;
+  padding: 15px;
+}
+}
+.col-4 img{
+  margin: 0 auto;
+  vertical-align: midle;
+  cursor: pointer;
+  
+}
+.col-4 p{
+  color: #f1f1f1;
+  
+}
+.col-100-bloco-logos{
+  width: 100%;
+  min-width: 980px;
+  height: 300px;
+  float: left;
+  position: relative;
+  background-color: #999494;
+  text-align: center;
+  border-top: 3px solid #150405;
+  border:  3px solid #150405;
+  
+}
+.col-h-final{
+  width: 100%;
+  min-width: 980px;
+  height: 40px;
+  float: left;
+  position: relative;
+  background-color: #999494;
+  text-align: center;
+  border-top: 3px solid #150405;
+  
+}
+
+.final{
+  background-color: #999494;
+  min-width: 980px;
+  width: 100%;
+}
+
+
+.btn-group {
+width:100%;
+
+}
