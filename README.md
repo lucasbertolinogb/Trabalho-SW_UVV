@@ -9,16 +9,25 @@ JavaScript:
 >É a úncica parte em javascript feito ...my precious
 
 ``
-function logar() {
-  var login = document.getElementById('login').value
-  var senha = document.getElementById('senha').value
-  if (login == '1234' && senha == '1234'){
-    alert("sucesso")
-    location.href = "login.html"
-  }else {
-    alert("Usuário ou senha incorreta")
-  }
-}``
+function logar() {``
+  
+  ``var login = document.getElementById('login').value``
+  
+  ``var senha = document.getElementById('senha').value``
+  
+  ``if (login == '1234' && senha == '1234'){``
+  
+  ``  alert("sucesso")``
+  
+   `` location.href = "login.html" ``
+ 
+ ``}else {``
+ 
+ ``   alert("Usuário ou senha incorreta")``
+ 
+ `` }``
+ 
+``}``
 >É o básico sobre cadastrar conta e como diz nos códigos 1234 para login e senha, porém só fiz até o bem vindo ao site e acabou o cadastro...
 
 
