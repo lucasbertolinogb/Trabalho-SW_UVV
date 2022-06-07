@@ -43,15 +43,15 @@ function logar() {``
 
 >Sim e não , sim ,pois, eu realmente copiei os códigos e não ,pois, tive que dar umas leves mudançãs para inserir o conteúdo nos lugares certos e mudar seus tamanhos para ficar legal.
 
-``3)E sobre este as funções do site``
+``3)E sobre estas funções do site``
 
 Eu explico esta parte dentro do site (nos FAQ para ser mais preciso) , entrentanto a maior parte deste trabalho esta no css e HTML ... pois só agora que eu vi que é necessário JS (erro meu por esquecer informações).
 
 ``4)Posso pegar seus códigos de iniciante para ... qualquer coisa ?``
 
-Pode pegar esse códigos eu não me importo tanto com cola , mas se for colega !@#$%¨&*&¨%$#@!@#$%¨&*&¨%$#@#$%¨&*&¨%$#@#$ para sua @#$%¨&*(*&¨%$#@ , com carinho L.B.S.C
+Pode pegar esse códigos eu não me importo tanto com cola , mas se for colega do meu período !@#$%¨&*&¨%$#@!@#$%¨&*&¨%$#@#$%¨&*&¨%$#@#$ para sua @#$%¨&*(*&¨%$#@ , com carinho L.B.S.C
 
 ``5)Como posso saber que os códigos que eu peguei não vão travar meu sistema?``
 
-Olha ... vai na fé e na W3schools e bootstrap , que eu usei , e le estes sites para ter uma visão geral de como usar os códigos.
+Olha ... vai na fé e na W3schools e bootstrap , que eu usei , e lê estes sites para ter uma visão geral de como usar os códigos.
 
