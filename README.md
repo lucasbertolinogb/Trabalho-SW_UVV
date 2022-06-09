@@ -1,4 +1,5 @@
 # Trabalho-SW_UVV
+OBS:esqueci de colocar as imagens
 Trabalho sobre um site para refugiadas
 
 link do site : https://aula-2605.lucasbertolino.repl.co
